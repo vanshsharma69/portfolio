@@ -152,7 +152,7 @@ const About = () => {
         {/* Section 3 */}
         <section >
   <div id='skills' class="max-w-7xl mx-auto">
-    <h3 class="text-3xl md:text-5xl font-semibold mb-12 text-white">
+    <h3 class="text-3xl md:text-5xl font-semibold mb-12 text-blue-400 ">
       Technical <span class="text-blue-400">Skills</span>
     </h3>
 
