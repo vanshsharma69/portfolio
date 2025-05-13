@@ -136,7 +136,7 @@ const About = () => {
 
 
         <section id='studies' className='mb-8'>
-          <h3 className="text-start text-4xl md:text-5xl font-semibold mb-8">Education</h3>
+          <h3 className="text-start text-4xl md:text-5xl font-semibold text-blue-400 mb-8">Education</h3>
           <div class=" shadow-md rounded-lg max-w-xl  mb-8">
           <h1 class="text-xl font-bold text-white mb-2">GLA University</h1>
           <span class="text-lg text-grey-200 font-semibold">Persuing BTech in Computer Science and enginnering</span>
