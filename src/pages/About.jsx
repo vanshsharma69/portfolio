@@ -36,7 +36,7 @@ const About = () => {
         </div>
         <div className="flex space-x-3">
           <button className="bg-white text-black px-4 py-1 rounded-full text-sm">English</button>
-          <button className="bg-white/10 px-4 py-1 rounded-full text-sm text-gray-300">Bahasa</button>
+          <button className="bg-white/10 px-4 py-1 rounded-full text-sm text-gray-300">Hindi</button>
         </div>
       </section>
 
