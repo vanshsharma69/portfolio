@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Home, User, Grid3X3, BookText, Image as GalleryIcon, Sun } from 'lucide-react'
-import Clock from './Clock'
+import { Home, User, FolderDot, Trophy,Phone} from 'lucide-react'
+import Clock from './Clock' 
 import { Link, useLocation } from 'react-router-dom'
 
 const NavBar = () => {
@@ -10,9 +10,9 @@ const NavBar = () => {
   const navItems = [
     { name: '', icon: <Home size={16} />, path: '/' },
     { name: 'about', icon: <User size={16} />, path: '/about' },
-    { name: 'project', icon: <Grid3X3 size={16} />, path: '/project' },
-    { name: 'achievement', icon: <BookText size={16} />, path: '/achievement' },
-    { name: 'contact', icon: <GalleryIcon size={16} />, path: '/contact' }
+    { name: 'project', icon: <FolderDot size={16} />, path: '/project' },
+    { name: 'achievement', icon: <Trophy size={16} />, path: '/achievement' },
+    { name: 'contact', icon: <Phone size={16} />, path: '/contact' }
   ];
 
   return (
@@ -40,10 +40,7 @@ const NavBar = () => {
                   </Link>
                 </li>
               ))}
-              <div className="w-px h-5 bg-white/10 mx-2" />
-              <li className="p-1 rounded-full hover:bg-white/10 transition">
-                <Sun size={16} />
-              </li>
+              
             </ul>
           </div>
 
@@ -70,10 +67,6 @@ const NavBar = () => {
                 </Link>
               </li>
             ))}
-            <div className="w-px h-5 bg-white/10 mx-2" />
-            <li className="p-1 rounded-full hover:bg-white/10 transition">
-              <Sun size={16} />
-            </li>
           </ul>
         </nav>
       </div>
