@@ -100,7 +100,7 @@ const About = () => {
 
         {/* Additional Content */}
         <section id="experience" className='mb-12'>
-          <h3 className=" text-4xl md:text-5xl font-semibold mb-4">Work <span className='text-blue-400'>Experience</span></h3>
+          <h3 className=" text-4xl md:text-5xl font-semibold mb-4"><span className='text-blue-400'>Experience</span></h3>
           <div class=" shadow-md rounded-lg max-w-xl  my-6">
           <h1 class="text-2xl font-bold text-gray-300 mb-1">Pregrad</h1>
           <span class="text-sm text-blue-600 font-semibold">ANDROID APP DEVELOPMENT TRAINEE</span>
@@ -136,7 +136,7 @@ const About = () => {
 
 
         <section id='studies' className='mb-8'>
-          <h3 className="text-start text-4xl md:text-5xl font-semibold mb-8">Studies</h3>
+          <h3 className="text-start text-4xl md:text-5xl font-semibold mb-8">Education</h3>
           <div class=" shadow-md rounded-lg max-w-xl  mb-8">
           <h1 class="text-xl font-bold text-white mb-2">GLA University</h1>
           <span class="text-lg text-grey-200 font-semibold">Persuing BTech in Computer Science and enginnering</span>
@@ -144,7 +144,7 @@ const About = () => {
         </div>
         <div class=" shadow-md rounded-lg max-w-xl  my-8">
           <h1 class="text-2xl font-bold text-gray-300 mb-2">St. Francis Inter College</h1>
-          <span class="text-xl text-gray-200 font-semibold">Completed 10th and 12</span>
+          <span class="text-xl text-gray-200 font-semibold">Completed 10th and 12th </span>
           
         </div>
         </section>
