@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -43,7 +44,7 @@ const About = () => {
       <main className="flex-1 w-full md:ml-[28rem] px-6 sm:px-10 md:px-20  md:mt-28 overflow-y-auto md:mb-28 mb-8">
         
         {/* Profile Section - Visible on Mobile */}
-        <div className="md:hidden flex flex-col mb-8 justify-center items-center">
+        <div className="md:hidden flex flex-col mb-8 justify-center items-center mt-10">
           <img
             src={require('../assets/vansh.jpg')}
             alt="Profile"
@@ -81,11 +82,21 @@ const About = () => {
         </div>
 
         {/* Bio Section */}
-        <section  className="mb-16 ">
-          <p className="text-white max-w-3xl text-base sm:text-lg leading-relaxed">
-          Vansh Sharma is a Computer Science student at GLA University, specializing in Flutter, React, and Java for DSA. Passionate about solving complex problems, he focuses on creating innovative digital solutions and thrives on continuous learning and collaboration.
-          </p>
-        </section>
+        <section className="mb-16 flex flex-col sm:items-start sm:text-left items-center text-center justify-center">
+  <p className="text-white max-w-3xl text-base sm:text-lg leading-relaxed">
+    Vansh Sharma is a Computer Science student at GLA University, specializing in Flutter, React, and Java for DSA. Passionate about solving complex problems, he focuses on creating innovative digital solutions and thrives on continuous learning and collaboration.
+  </p>
+
+  <Link
+    to="/contact"
+    className="mt-10 inline-flex items-center gap-2 bg-black border border-white/30 hover:border-blue-400 transition px-6 py-3 text-white font-bold uppercase tracking-wider"
+  >
+    <span className="uppercase">Contact me</span>
+  </Link>
+</section>
+
+
+        
 
         {/* Additional Content */}
         <section id="experience" className='mb-12'>

@@ -54,7 +54,7 @@ const NavBar = () => {
       </div>
 
       {/* Bottom navbar - only on mobile */}
-      <div className=" fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 px-4 block md:hidden">
+      <div className=" fixed top-4 left-1/2 transform -translate-x-1/2 z-50 px-4 block md:hidden ">
         <nav className="bg-white/5 border border-white/10 rounded-full px-4 py-2 backdrop-blur-md shadow-md">
           <ul className="flex items-center gap-3 text-white text-sm">
             {navItems.map(item => (
