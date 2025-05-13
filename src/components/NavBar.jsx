@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <>
       {/* Top navbar - only on md and larger */}
-      <div className="w-full fixed top-0 z-50 bg-gradient-to-b px-6 py-4 hidden md:block">
+      <div className="w-full fixed top-0 z-50 bg-gradient-to-b px-6 py-4 hidden md:block ">
         <nav className="flex justify-between items-center">
           <div>
             <p className="text-white text-sm">Asia/India</p>
@@ -54,7 +54,7 @@ const NavBar = () => {
       </div>
 
       {/* Bottom navbar - only on mobile */}
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 px-4 block md:hidden">
+      <div className=" fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 px-4 block md:hidden">
         <nav className="bg-white/5 border border-white/10 rounded-full px-4 py-2 backdrop-blur-md shadow-md">
           <ul className="flex items-center gap-3 text-white text-sm">
             {navItems.map(item => (
