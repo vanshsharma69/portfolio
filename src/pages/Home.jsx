@@ -8,6 +8,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Card from '../components/Card';
+import DownloadResume from '../components/DownloadResume';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -47,12 +48,11 @@ const Home = () => {
             Ambitious Computer Science student passionate about solving real-world challenges through innovative tech solutions.
           </p>
 
-          <Link
-            to="/about"
-            className="inline-flex items-center gap-2  border border-white/30 hover:border-blue-400 transition px-6 py-3 text-white font-bold uppercase tracking-wider"
-          >
-            <button className='uppercase'>More about me</button>
-          </Link>
+          <div
+  className="inline-flex items-center gap-2 border border-white/30 hover:border-blue-400 transition px-6 py-3 text-white font-bold uppercase tracking-wider"
+>
+  <DownloadResume></DownloadResume>
+</div>
         </motion.div>
 
         {/* Image */}
