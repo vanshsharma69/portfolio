@@ -4,7 +4,7 @@ import Login from '../assets/login_project.png';
 import Task from '../assets/task_project.png';
 import ProjectModal from '../components/ProjectModal';
 import { useState } from 'react';
-
+import Ecomzy from '../assets/Project/Ecomzy.png';
 const Project = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -16,6 +16,14 @@ const Project = () => {
       description: 'USED CONTEXT API WITH GLOBAL STATEMANAGEMENT',
       technologies: 'REACT JS, TAILWIND CSS, API',
       link: 'https://github.com/vanshsharma69/blogs-context',
+    },
+    {
+      image: Ecomzy,
+      alt: 'Ecomzy Store',
+      title: 'Ecommerce Store',
+      description: 'USED Redux',
+      technologies: 'REACT JS, TAILWIND CSS, API , REDUX',
+      link: 'https://github.com/vanshsharma69/ecomzy-store',
     },
     {
       image: Login,
@@ -33,6 +41,7 @@ const Project = () => {
       technologies: 'REACT JS, TAILWIND CSS , REACT-DND',
       link: 'https://github.com/vanshsharma69/Task_list',
     },
+    
   ];
 
   return (

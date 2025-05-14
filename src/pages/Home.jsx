@@ -35,9 +35,12 @@ const Home = () => {
           className="w-full md:w-1/2"
         >
           <div className="inline-block mb-6">
+            <a href='https://github.com/vanshsharma69/ecomzy-store' target="_blank">
             <span className="text-xs font-medium text-white px-4 py-1 border border-blue-400 rounded-full bg-slate-900 backdrop-blur-md shine-effect">
-              Recent project: <span className="font-bold">Ecozmy</span>
+              Recent project: <span className="font-bold">Ecomzy</span>
             </span>
+
+            </a>
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
