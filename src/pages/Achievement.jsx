@@ -31,8 +31,8 @@ const Achievement = () => {
             onClick={() => setActiveFilter(filter)}
             className={`px-4 py-2 rounded-full font-semibold transition-all duration-200 ${
               activeFilter === filter
-                ? 'bg-cyan-500 text-white'
-                : 'bg-gray-200 text-gray-800 hover:bg-cyan-400 hover:text-white'
+                ? 'bg-red-500 text-white'
+                : 'bg-gray-200 text-gray-800 hover:bg-red-500 hover:text-white'
             }`}
           >
             {filter}

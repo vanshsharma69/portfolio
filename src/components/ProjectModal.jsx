@@ -16,7 +16,7 @@ const ProjectModal = ({ project, onClose }) => {
     <div className=" fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
       <div
         className={`
-          bg-white rounded-md p-6 w-full max-w-lg text-center transform transition-all duration-300
+          bg-zinc-300 rounded-md p-6 w-full max-w-lg text-center transform transition-all duration-300
           ${show ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}
         `}
       >
@@ -27,12 +27,12 @@ const ProjectModal = ({ project, onClose }) => {
         </p>
 
         {/* Joined Button Style */}
-        <div className="flex border-t border-gray-300 mt-6">
+        <div className="flex border-t border-gray-300 mt-6  ">
           <a
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 py-3 text-white font-semibold uppercase tracking-wider bg-black hover:bg-gray-800 rounded-bl-md"
+            className="w-1/2 py-3 text-white font-semibold uppercase tracking-wider bg-red-600 hover:bg-gray-800 rounded-bl-md mr-5 rounded-lg"
           >
             View Project
           </a>
@@ -42,7 +42,7 @@ const ProjectModal = ({ project, onClose }) => {
               setShow(false);
               setTimeout(onClose, 200); // match the animation duration
             }}
-            className="w-1/2 py-3 text-white font-semibold uppercase tracking-wider bg-black hover:bg-gray-800 rounded-br-md"
+            className="w-1/2 py-3 text-white font-semibold uppercase tracking-wider bg-red-600 hover:bg-gray-800 rounded-br-md rounded-lg"
           >
             Close
           </button>

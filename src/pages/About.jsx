@@ -143,9 +143,9 @@ const About = () => {
           
         </div>
         <div class=" shadow-md rounded-lg max-w-xl  my-8">
-          <h1 class="text-2xl font-bold text-gray-300 mb-2">St. Francis Inter College</h1>
-          <span class="text-xl text-gray-200 font-semibold">Completed 10th and 12th </span>
-          
+          <h1 class="text-2xl font-bold text-white mb-2">St. Francis Inter College</h1>
+          <span class="text-xl text-white font-semibold">Completed 10th and 12th </span>
+
         </div>
         </section>
 
