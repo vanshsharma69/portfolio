@@ -5,6 +5,7 @@ import Task from '../assets/task_project.png';
 import ProjectModal from '../components/ProjectModal';
 import { useState } from 'react';
 import Ecomzy from '../assets/Project/Ecomzy.png';
+import SoftSell from '../assets/Project/Soft_Sell.png'; 
 const Project = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -24,6 +25,14 @@ const Project = () => {
       description: 'USED Redux',
       technologies: 'REACT JS, TAILWIND CSS, API , REDUX',
       link: 'https://github.com/vanshsharma69/ecomzy-store',
+    },
+    {
+      image: SoftSell,
+      alt: 'SOFT-SELL',
+      title: 'SOFT-SELL',
+      description: 'Internship Assignment',
+      technologies: 'REACT JS,Framer-motion, Typewrite, Tailwind CSS Lucide Icons',
+      link: 'https://github.com/vanshsharma69/soft-sell',
     },
     {
       image: Login,
