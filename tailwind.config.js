@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio: {
+        video: '16 / 9',
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [require('@tailwindcss/aspect-ratio'), require('@tailwindcss/line-clamp')],
+};
+
 

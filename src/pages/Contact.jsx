@@ -16,7 +16,7 @@ const Contact = () => {
       </p>
 
       {/* Contact Info */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-16 mb-16">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-16 mb-16">a
         {/* Location */}
         <div className="flex flex-col items-center">
           <FaMapMarkerAlt size={40} className="mb-4" />
