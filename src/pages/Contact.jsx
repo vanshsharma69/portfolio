@@ -49,7 +49,7 @@ const Contact = () => {
         <div className="flex gap-6 mt-4 text-white text-xl">
           <a href="https://github.com/vanshsharma69" target='_blank' className="hover:text-cyan-400"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/vansh-sharma-5061762bb/" target='_blank' className="hover:text-cyan-400"><FaLinkedin /></a>
-          <a href="#" className="hover:text-cyan-400"><FaInstagram /></a>
+          <a href="https://www.instagram.com/van_sh0107" target='_blank' className="hover:text-cyan-400"><FaInstagram /></a>
         </div>
       </div>
     </section>
