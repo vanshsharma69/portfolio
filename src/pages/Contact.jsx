@@ -1,5 +1,14 @@
-import React from 'react'
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaHeart, FaCode, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import React from 'react';
+import {
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaHeart,
+  FaCode,
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+} from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -21,7 +30,7 @@ const Contact = () => {
         <div className="flex flex-col items-center">
           <FaMapMarkerAlt size={40} className="mb-4" />
           <h4 className="text-cyan-400 font-bold tracking-wide uppercase text-sm mb-1">Find Me @</h4>
-          <p className="text-sm uppercase ">GLA University</p>
+          <p className="text-sm uppercase">GLA University</p>
         </div>
 
         {/* Email */}
@@ -42,17 +51,40 @@ const Contact = () => {
       {/* Footer */}
       <div className="text-gray-500 text-sm flex flex-col items-center gap-4">
         <p className="flex items-center gap-2">
-          © Vansh 2025 | <FaCode /> with <FaHeart className="text-gray-300" /> by <span className="text-white font-semibold">Vansh Sharma</span>
+          © Vansh 2025 | <FaCode /> with <FaHeart className="text-gray-300" /> by{' '}
+          <span className="text-white font-semibold">Vansh Sharma</span>
         </p>
 
         {/* Social Icons */}
         <div className="flex gap-6 mt-4 text-white text-xl">
-          <a href="https://github.com/vanshsharma69" target='_blank' className="hover:text-cyan-400"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/vansh-sharma-5061762bb/" target='_blank' className="hover:text-cyan-400"><FaLinkedin /></a>
-          <a href="https://www.instagram.com/van_sh0107" target='_blank' className="hover:text-cyan-400"><FaInstagram /></a>
+          <a
+            href="https://github.com/vanshsharma69"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vansh-sharma-5061762bb/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://www.instagram.com/van_sh0107"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyan-400"
+          >
+            <FaInstagram />
+          </a>
         </div>
       </div>
     </section>
   );
-}
-export default Contact
+};
+
+export default Contact;

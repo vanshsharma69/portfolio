@@ -35,7 +35,7 @@ const Home = () => {
           className="w-full md:w-1/2"
         >
           <div className="inline-block mb-6">
-            <a href='https://github.com/vanshsharma69/ecomzy-store' target="_blank">
+            <a href='https://github.com/vanshsharma69/ecomzy-store' target="_blank" rel="noopener noreferrer">
             <span className="text-xs font-medium text-white px-4 py-1 border border-blue-400 rounded-full bg-slate-900 backdrop-blur-md shine-effect">
               Recent project: <span className="font-bold">Ecomzy</span>
             </span>
