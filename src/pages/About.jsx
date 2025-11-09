@@ -6,8 +6,6 @@ import {
   Mail,
   Globe,
   Languages,
-  GraduationCap,
-  Wrench,
 } from "lucide-react";
 
 const translations = {
