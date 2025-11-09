@@ -31,11 +31,11 @@ const ProjectCard = ({ project, onClick }) => (
           if (e.key === 'Enter') onClick();
         }}
       >
-        <div className="w-full h-44 rounded-xl overflow-hidden mb-4 bg-gray-800 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+        <div className="w-full h-44  overflow-hidden mb-4 bg-gray-800 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
           <img
             src={project.image}
             alt={project.alt}
-            className="object-cover w-full h-full"
+            className="object-contain w-full h-full"
             loading="lazy"
           />
         </div>
